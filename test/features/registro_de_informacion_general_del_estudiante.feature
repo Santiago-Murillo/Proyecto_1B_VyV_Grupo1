@@ -2,7 +2,7 @@
 
   # language: es
 
-Característica: : Registro de información general del estudiante
+Característica: Registro de información general del estudiante
   Como estudiante de la EPN
   Quiero registrar mi información de salud en general
   Para que los médicos puedan recomendarme precisamente que hacer en caso de que me sienta mal

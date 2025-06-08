@@ -3,7 +3,7 @@
 Característica: Envío de recetas y certificados médicos al correo institucional
   Como estudiante de la EPN
   Quiero que mis recetas y certificados médicos se envíen a mi correo institucional
-  Para tener acceso rápido a estos documentos para trámites internos
+  Para tener acceso rápido a estos documentos
 
   Escenario:
     # Enter steps here
