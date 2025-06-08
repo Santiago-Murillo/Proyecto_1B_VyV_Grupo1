@@ -1,6 +1,9 @@
-# Created by USER at 07/06/2025
-Feature: # Enter feature name here
-  # Enter feature description here
+# Created by Angel at 07/06/2025
+# language: es
+Característica: Gráficos interactivos
+  Como estudiante de la EPN
+  Quiero identificar visualmente mis datos
+  Para entender mejor mis patrones de dolor y expresar eficientemente mi condición
 
-  Scenario: # Enter scenario name here
+  Escenario: # Enter scenario name here
     # Enter steps here

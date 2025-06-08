@@ -2,8 +2,9 @@
 # language: es
 Característica: Historial cronológico
   Como estudiante de la EPN
-  Quiero visualizar un historial de mis episodios de migraña
-  Para identificar patrones respecto mi salud
+  #Quiero visualizar un historial de mis episodios de migraña
+  Quiero identificar patrones respecto mi salud a lo largo del tiempo
+  Para saber cómo ha cambiado mi condición de salud
 
   Escenario: : # Enter scenario name here
     # Enter steps here
