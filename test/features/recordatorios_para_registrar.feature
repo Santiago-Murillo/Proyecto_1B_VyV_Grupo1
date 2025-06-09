@@ -1,4 +1,4 @@
-# Created by Angel at 07/06/2025
+# Created by Eliath at 07/06/2025
 # language: es
 Característica: Recordatorios para registrar nuevos episodios
   Como paciente
