@@ -13,11 +13,13 @@ Característica: Historial cronológico
 
   Escenario: Filtrar historial según un rango de fechas
     Dado que el paciente tiene registrado al menos un episodio de salud
-    Cuando selecciona un rango de fechas personalizado
+    Cuando consulta el historial
+    Y selecciona un rango de fechas
     Entonces se muestran solo los episodios registrados dentro de ese rango
 
   Escenario: Visualizar mensaje cuando no hay datos registrados en el período seleccionado
     Dado que el paciente tiene registrado al menos un episodio de salud
-    Cuando selecciona un rango de fechas sin episodios registrados
+    Cuando consulta el historial
+    Y selecciona un rango de fechas sin episodios registrados
     Entonces se muestra un mensaje indicando que no hay registros disponibles
     Y se sugiere registrar un nuevo episodio si es necesario
