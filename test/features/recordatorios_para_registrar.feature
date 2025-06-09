@@ -1,6 +1,6 @@
 # Created by Angel at 07/06/2025
 # language: es
-Característica: Recordatorios inteligentes para registrar nuevos episodios
+Característica: Recordatorios para registrar nuevos episodios, basados en intervalos de inactividad
   Como estudiante de la EPN
   Quiero recibir recordatorios
   Para no olvidar registrar mis síntomas y dar seguimiento a mi condición
