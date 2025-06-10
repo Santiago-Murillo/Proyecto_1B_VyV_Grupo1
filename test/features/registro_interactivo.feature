@@ -1,4 +1,4 @@
-# Created by Eliath at 07/06/2025
+# Created by Angel at 07/06/2025
 # language: es
 Característica: Registro interactivo
   Como paciente,
@@ -11,7 +11,6 @@ Característica: Registro interactivo
     Y ingresa los desencadenantes
     Y ingresa los síntomas
     Y ingresa la ubicación del dolor
-    Y guarda la información
     Entonces el episodio se registra correctamente en su historial
     Y se mostrará un mensaje de registro exitoso
 
@@ -19,8 +18,6 @@ Característica: Registro interactivo
     Dado que el paciente tiene un médico asignado
     Cuando intenta registrar un episodio de migraña
     Y ingresa los desencadenantes
-    Pero no ingresa los síntomas
-    Y ingresa los campos de los síntomas
+    Y no ingresa los síntomas
     Y ingresa la ubicación del dolor
-    Y intenta guardar la información
-    Entonces se mostrará un mensaje de error indicando que todos los campos son obligatorios
+    Entonces se mostrará un mensaje de error indicando que los sintomas y ubicacion de dolor son obligatorios
