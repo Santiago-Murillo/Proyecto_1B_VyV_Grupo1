@@ -12,16 +12,15 @@ Característica: Agenda de citas médicas
     Y elige una fecha y hora disponibles,
     Entonces la cita quedará agendada.
 
+  Escenario: Agendar cita en horario no disponible
+    Dado que el paciente tiene un médico asignado,
+    Cuando intenta agendar una cita con un médico en un horario ya ocupado,
+    Entonces se indicará que ese horario no está disponible
+
   Escenario: Cancelar cita
     Dado que el paciente tiene una cita agendada,
     Cuando cancela la cita
     Entonces la cita ya no estará agendada.
-
-  Escenario: Agendar cita en horario no disponible
-    Dado que el paciente tiene un médico asignado,
-    Cuando intenta agendar una cita con un médico en un horario ya ocupado,
-    Entonces el sistema debe indicarle que ese horario no está disponible,
-    Y no se registra la cita.
 
  """
    Escenario:

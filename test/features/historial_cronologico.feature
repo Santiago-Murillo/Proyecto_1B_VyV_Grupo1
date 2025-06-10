@@ -14,7 +14,7 @@ Característica: Historial cronológico
     Entonces se muestran todos los episodios registrados con su información detallada
 
   Escenario: Filtrar historial según un rango de fechas
-    Cuando consulta el historial
+    Cuando consulta el historial para un rango
     Y selecciona un rango de fechas
     Entonces se muestran solo los episodios registrados dentro de ese rango
 

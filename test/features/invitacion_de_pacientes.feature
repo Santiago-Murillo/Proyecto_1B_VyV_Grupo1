@@ -6,20 +6,20 @@
 
 Característica: Invitación de pacientes
   Como médico
-  Quiero que invitar a mis pacientes para que se unan a mi burbuja médica
-  Para que puedan acceder a sus registros médicos y comunicarse conmigo de manera segura
+  Quiero invitar a mis pacientes a unirse a la aplicación
+  Para que puedan crear su cuenta y queden automáticamente asignados a mi
 
   Antecedentes:
-    Dado que el médico tiene un perfil médico registrado
-    Y tiene al menos una burbuja médica creada
-
-  Escenario: Invitar a un paciente con un perfil existente
-    Cuando el médico envía una invitación a un paciente con un perfil existente
-    Entonces el paciente recibirá una notificación de la invitación que podrá aceptar o rechazar
-    Y el médico recibirá una confirmación de que la invitación fue enviada
+    Dado que el médico ha creado una invitación para un paciente
 
   Escenario: Invitar a un paciente sin perfil existente
-    Cuando el médico envía una invitación a un paciente sin un perfil existente
-    Entonces se creará un nuevo perfil de paciente con la invitación
-    Y el paciente recibirá una notificación de la invitación
-    Y el médico recibirá una confirmación de que la invitación fue enviada
+    Y el paciente no tiene un perfil existente
+    Cuando el paciente reclama la invitación enviada por el médico
+    Entonces se creará el perfil del paciente y se vinculará al médico
+    Y el médico recibirá una confirmación de que la invitación fue reclamada
+
+  Escenario: Invitar a un paciente con perfil existente
+    Y el paciente tiene un perfil existente vinculado a otro médico
+    Cuando  el paciente reclama la invitación enviada por el médico
+    Entonces se vinculará al nuevo médico y no se creará un nuevo perfil
+     Y el médico recibirá una confirmación de que la invitación fue reclamada

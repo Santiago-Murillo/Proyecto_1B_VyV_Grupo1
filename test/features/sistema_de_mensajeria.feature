@@ -2,7 +2,8 @@
   # language: es
 
   """
-  Un médico puede habilitar o deshabilitar la mensajería con pacientes asignados. Si la mensajería está deshabilitada, el sistema debe impedir el envío de mensajes y notificar al paciente.
+  Un médico puede habilitar o deshabilitar la mensajería con pacientes asignados.
+  Si la mensajería está deshabilitada, el sistema debe impedir el envío de mensajes y notificar al paciente.
   """
 
 Característica: Sistema de mensajería entre pacientes y médicos
