@@ -11,15 +11,13 @@ Característica: Historial cronológico
 
   Escenario: Visualización del historial completo
     Cuando consulta el historial
-    Entonces se muestran todos los episodios registrados con su información detallada
+    Entonces se mostrarán todos los episodios registrados con su información detallada
 
   Escenario: Filtrar historial según un rango de fechas
-    Cuando consulta el historial
-    Y selecciona un rango de fechas
-    Entonces se muestran solo los episodios registrados dentro de ese rango
+    Cuando consulta el historial para un rango de fechas
+    Entonces se mostrarán solo los episodios registrados dentro de ese rango
 
   Escenario: Visualizar mensaje cuando no hay datos registrados en el período seleccionado
-    Cuando consulta el historial
-    Y selecciona un rango de fechas sin episodios registrados
-    Entonces se muestra un mensaje indicando que no hay registros disponibles
-    Y se sugiere registrar un nuevo episodio si es necesario
+    Cuando consulta el historial para un rango de fechas sin episodios registrados
+    Entonces se mostrará un mensaje indicando que no hay registros disponibles
+    Y se mostrará un mensaje de registrar un nuevo episodio si es necesario
