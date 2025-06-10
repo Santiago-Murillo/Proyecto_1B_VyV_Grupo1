@@ -11,7 +11,7 @@ Característica: Registro interactivo
     Y ingresa los desencadenantes
     Y ingresa los síntomas
     Y ingresa la ubicación del dolor
-    Entonces el episodio se registra correctamente en su historial
+    Entonces el episodio se registra correctamente en su historial con la fecha actual
     Y se mostrará un mensaje de registro exitoso
 
   Escenario: Registrar un episodio de migraña sin completar campos requeridos
