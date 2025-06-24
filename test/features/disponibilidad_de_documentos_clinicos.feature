@@ -7,8 +7,8 @@
 Característica: Disponibilidad de documentos clínicos
   Como médico
   Quiero que mis pacientes dispongan inmediatamente de sus documentos clínicos
-  #Para que mis pacientes tomen decisiones informadas sobre su salud
   Para que puedan acceder a información clave sin depender de consultas presenciales
+  #Para que mis pacientes tomen decisiones informadas sobre su salud
 
   Escenario: Compartir documentos clínicos
     Dado que el médico tiene al menos un paciente registrado

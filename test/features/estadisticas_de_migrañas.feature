@@ -19,3 +19,7 @@ Característica: Estadísticas de migrañas
   Escenario: Consultar el desencadenante más común
     Cuando consulta el desencadenante más común
     Entonces se mostrará el desencadenante más común
+
+  Escenario: Consultar la zona más frecuente de dolor
+    Cuando una zona de dolor es más común que las demás
+    Entonces se mostrará la zonas más frecuente de dolor

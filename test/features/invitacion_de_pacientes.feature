@@ -13,13 +13,13 @@ Característica: Invitación de pacientes
     Dado que el médico ha creado una invitación para un paciente
 
   Escenario: Invitar a un paciente sin perfil existente
-    Y el paciente no tiene un perfil existente
+    Dado que el paciente no tiene un perfil existente
     Cuando el paciente reclama la invitación enviada por el médico
     Entonces se creará el perfil del paciente y se vinculará al médico
     Y el médico recibirá una confirmación de que la invitación fue reclamada
 
   Escenario: Invitar a un paciente con perfil existente
-    Y el paciente tiene un perfil existente vinculado a otro médico
+    Dado que el paciente tiene un perfil existente vinculado a otro médico
     Cuando  el paciente reclama la invitación enviada por el médico
     Entonces se vinculará al nuevo médico y no se creará un nuevo perfil
      Y el médico recibirá una confirmación de que la invitación fue reclamada

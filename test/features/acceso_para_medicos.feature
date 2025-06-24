@@ -9,12 +9,12 @@ Característica: Acceso para médicos
   Quiero tener un perfil médico con mis datos profesionales
   Para poder gestionar mis pacientes
 
-    Escenario: Registro del perfil médico nuevo
+    Escenario: Registro de un nuevo perfil médico
       Dado que el médico no tiene un perfil médico registrado
       Cuando intenta crear un perfil médico con un correo electrónico único
       Entonces se creará el perfil médico
 
-    Escenario: Registro de perfil médico existente
+    Escenario: Registro de un perfil médico existente
       Dado que el médico tiene un perfil médico registrado
       Cuando intenta crear un perfil médico con el mismo correo electrónico ya registrado
       Entonces se le informará que ya existe un perfil médico con ese correo electrónico

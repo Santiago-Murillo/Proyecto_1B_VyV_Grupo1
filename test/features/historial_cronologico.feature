@@ -10,16 +10,14 @@ Característica: Historial cronológico
     Dado que el paciente tiene registrado al menos un episodio de migraña
 
   Escenario: Visualización del historial completo
-    Cuando consulta el historial
+    Cuando el historial no disponga de un rango de fechas específico
     Entonces se muestran todos los episodios registrados con su información detallada
 
   Escenario: Filtrar historial según un rango de fechas
-    Cuando consulta el historial
-    Y selecciona un rango de fechas
+    Cuando el historial disponga de un rango de fechas con episodios registrados
     Entonces se muestran solo los episodios registrados dentro de ese rango
 
   Escenario: Visualizar mensaje cuando no hay datos registrados en el período seleccionado
-    Cuando consulta el historial
-    Y selecciona un rango de fechas sin episodios registrados
+    Cuando el historial disponga de un rango de fechas sin episodios registrados
     Entonces se muestra un mensaje indicando que no hay registros disponibles
     Y se sugiere registrar un nuevo episodio si es necesario
