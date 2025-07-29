@@ -1,0 +1,29 @@
+@startuml
+!theme plain
+title Autoevaluación MIDAS - Flujo Principal
+
+actor Usuario
+participant Paciente
+participant Autoevaluacion
+
+== Configuración Inicial ==
+Usuario -> Paciente: new Paciente("")
+Usuario -> Autoevaluacion: new Autoevaluacion(fecha)
+Usuario -> Paciente: realizar_autoevaluacion(autoevaluacion)
+
+== Verificación de Disponibilidad ==
+Usuario -> Paciente: obtener_ultima_autoevaluacion()
+Paciente --> Usuario: autoevaluacion
+
+Usuario -> Autoevaluacion: han_pasado_tres_meses(fecha_actual)
+alt Han pasado 3 meses
+    Autoevaluacion --> Usuario: true
+    Usuario -> Paciente: establecer_autoevaluacion_disponible(true)
+    Paciente --> Usuario: "Puede realizar nueva autoevaluación"
+else No han pasado 3 meses
+    Autoevaluacion --> Usuario: false
+    Usuario -> Paciente: establecer_autoevaluacion_disponible(false)
+    Paciente --> Usuario: "Debe esperar para nueva autoevaluación"
+end
+
+@enduml

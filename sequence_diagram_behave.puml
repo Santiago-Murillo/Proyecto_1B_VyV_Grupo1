@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+title Diagrama de Secuencia - Autoevaluación MIDAS
+
+actor Usuario
+participant Paciente
+participant Autoevaluacion
+
+@enduml
